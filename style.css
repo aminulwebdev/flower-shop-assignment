@@ -1,11 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 
-
-*{
+body {
     margin: 0;
     padding: 0;
+    font-family: 'Lato', sans-serif;
 }
 
-ul,ol{
+ul,
+ol {
     list-style: none;
 }
 
+.basic {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.common_button{
+    padding: 20px 45px;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+}
+.common_button a{
+    color: #FFF;
+font-size: 20px;
+font-weight: 700;
+text-decoration: none;
+
+}
+
+/* =================================
+            common part end
+    =============================== */
+
+/* ===================================
+                Banner part start
+        ================================== */
+.banner_container {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.banner_text h1 {
+    width: 708px;
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    
+}
+
+.banner_text p {
+    width: 634px;
+    padding: 32px 0;
+}
+
+.banner_container  banner_img {
+    width: 635px;
+}
+
+/* ===================================
+                Banner part end
+        ================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===================================
+                Banner part start
+        ================================== */
+
+/* ===================================
+                Banner part end
+        ================================== */
+/* ===================================
+                Banner part start
+        ================================== */
+
+/* ===================================
+                Banner part end
+        ================================== */
+/* ===================================
+                Banner part start
+        ================================== */
+
+/* ===================================
+                Banner part end
+        ================================== */
+/* ===================================
+                Banner part start
+        ================================== */
+
+/* ===================================
+                Banner part end
+        ================================== */
