@@ -311,7 +311,7 @@ ol {
                 Instagram part start
         ================================== */
 
-.instagram_container{
+.instagram_container {
         padding-bottom: 130px;
 }
 
@@ -322,25 +322,57 @@ ol {
         padding: 14px 0 45px;
 }
 
-.instagram_container .instagram_items{
-      display: flex;
-      justify-content: center;
-      gap: 25px ;
+.instagram_container .instagram_items {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
 }
 
 /* ===================================
                 Instagram part end
         ================================== */
 
-
-
 /* ===================================
-                Banner part start
+                Subscribe part start
         ================================== */
 
+.subscribe_container {
+        width: 80%;
+        padding: 130px;
+        background: url(./asset/subscribe_banner.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 0 auto;
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+}
+
+.subscribe_container .subscribe_text p {
+        text-align: center;
+        padding: 10px 0 45px;
+}
+
+.subscribe_button {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+}
+
+.subscribe_button input {
+        padding: 22px 513px 22px 22px;
+        border: none;
+        border-radius: 8px;
+}
+
 /* ===================================
-                Banner part end
+                Subscribe part end
         ================================== */
+
+
+
 /* ===================================
                 Banner part start
         ================================== */
