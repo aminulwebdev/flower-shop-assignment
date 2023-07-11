@@ -263,6 +263,7 @@ ol {
 .support_container .support_items .item {
         width: 372px;
         text-align: center;
+        cursor: pointer;
 }
 
 
