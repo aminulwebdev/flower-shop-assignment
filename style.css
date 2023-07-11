@@ -388,13 +388,13 @@ ol {
                 Footer part start
       ================================== */
 
-.footer_container {
+.flowershop_container {
         margin-top: 130px;
         background: #111010;
         padding: 118px 0;
 }
 
-.footer_container h3 {
+.flowershop_container h3 {
         color: #E55473;
         font-size: 48px;
         font-weight: 800;
@@ -402,11 +402,11 @@ ol {
 
 }
 
-.footer_container span {
+.flowershop_container span {
         color: #fff;
 }
 
-.footer_container p {
+.flowershop_container p {
         color: rgba(255, 255, 255, 0.90);
         width: 625px;
         margin: 0 auto;
@@ -417,7 +417,7 @@ ol {
         padding-top: 15px;
 }
 
-.footer_container .copyright {
+.flowershop_container .copyright {
         color: rgba(255, 255, 255, 0.40);
         text-align: center;
         font-size: 16px;
