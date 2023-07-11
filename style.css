@@ -247,7 +247,7 @@ ol {
         border-radius: 8px;
         background: rgba(39, 39, 39, 0.05);
         width: 80%;
-        
+
 }
 
 .support_container .support_items {
@@ -256,9 +256,9 @@ ol {
         justify-content: space-evenly;
 }
 
-.support_container .support_items .item{
+.support_container .support_items .item {
         width: 372px;
-       text-align: center;
+        text-align: center;
 }
 
 
@@ -268,12 +268,45 @@ ol {
 
 
 /* ===================================
-                Banner part start
+        Limited Edition part start
         ================================== */
 
+.limitededition_container {
+        margin-bottom: 130px;
+        border-radius: 8px;
+        background: rgba(229, 84, 115, 0.05);
+}
+
+.limitededition_container .limited_items {
+        display: flex;
+        gap: 175px;
+        justify-content: center;
+        align-items: center;
+        padding: 100px 0;
+}
+
+.limitededition_container .limited_items .limited_text {
+        text-align: center;
+}
+
+.limitededition_container .limited_items .limited_text p {
+        width: 595px;
+        margin: 0 auto;
+        padding: 10px 0 25px;
+}
+
+.limitededition_container .limited_items .limited_text span {
+        color: #E55473;
+        font-size: 40px;
+        font-weight: 800;
+}
+
 /* ===================================
-                Banner part end
+        Limited Edition part end
         ================================== */
+
+
+
 /* ===================================
                 Banner part start
         ================================== */
