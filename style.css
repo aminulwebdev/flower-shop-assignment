@@ -74,7 +74,7 @@ ol {
         padding: 32px 0;
 }
 
-.banner_container banner_img {
+.banner_container .banner_img {
         width: 635px;
 }
 
@@ -251,7 +251,6 @@ ol {
         border-radius: 8px;
         background: rgba(39, 39, 39, 0.05);
         width: 80%;
-
 }
 
 .support_container .support_items {
@@ -352,7 +351,7 @@ ol {
 
 .subscribe_container {
         width: 80%;
-        padding: 130px;
+        padding: 130px 0;
         background: url(./asset/subscribe_banner.png);
         background-repeat: no-repeat;
         background-position: center;
