@@ -142,6 +142,98 @@ ol {
         Fetured flowers part end
         ================================== */
 
+/* ==============================
+        Special Offers part start
+    ============================= */
+.special_offers_container {
+        padding-top: 55px;
+}
+.special_offers_container h3{
+        padding-bottom: 50px;
+}
+.offer_items {
+        display: flex;
+        justify-content: center;
+        gap: 85px;
+        padding-bottom: 50px;
+}
+
+.offer_items .card {
+        width: 296px;
+        height: 435px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+
+}
+
+.offer_items .card img {
+        width: 100%;
+        border-radius: 10px;
+}
+
+.card_text {
+        display: flex;
+        justify-content: space-between;
+        padding: 35px 0 30px;
+}
+
+.offer_items .card .basic_title {
+        color: #272727;
+        font-size: 20px;
+        font-weight: 700;
+        cursor: pointer;
+}
+
+.card_text span {
+        color: #2b3330;
+        font-size: 16px;
+        font-weight: 400;
+}
+
+.btn{
+        padding: 12px;
+        border-radius: 8px;
+        background: #fff;
+        border: 1px solid #2b3330;
+        cursor: pointer;
+}
+.btn a {
+        color: #2b3330;
+        font-size: 16px;
+        font-weight: 700;      
+}
+
+.card_price span {
+        color: #2b3330;
+        font-size: 18px;
+        font-weight: 600;
+        margin-left: 5px;
+}
+
+
+
+.view_all_button {
+        padding: 20px 45px;
+        border-radius: 8px;
+        background: #E55473;
+        border: none;
+        cursor: pointer;
+        display: block;
+        margin: 0 auto;
+
+}
+
+.view_all_button a {
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 700;
+}
+
+
+
 /* ===================================
                 Banner part start
         ================================== */
