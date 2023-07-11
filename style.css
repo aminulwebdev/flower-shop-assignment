@@ -308,6 +308,40 @@ ol {
 
 
 /* ===================================
+                Instagram part start
+        ================================== */
+
+.instagram_container{
+        padding-bottom: 130px;
+}
+
+.instagram_container .instagram_text p {
+        width: 594px;
+        text-align: center;
+        margin: 0 auto;
+        padding: 14px 0 45px;
+}
+
+.instagram_container .instagram_items{
+      display: flex;
+      justify-content: center;
+      gap: 25px ;
+}
+
+/* ===================================
+                Instagram part end
+        ================================== */
+
+
+
+/* ===================================
+                Banner part start
+        ================================== */
+
+/* ===================================
+                Banner part end
+        ================================== */
+/* ===================================
                 Banner part start
         ================================== */
 
