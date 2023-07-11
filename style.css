@@ -9,7 +9,7 @@ body {
         font-family: 'Lato', sans-serif;
 }
 
-a{
+a {
         text-decoration: none;
 }
 
@@ -89,7 +89,7 @@ ol {
         ================================== */
 
 .featured_flowers {
-       padding: 130px 0;
+        padding: 130px 0;
 }
 
 .featured_flowers .featured_text p {
@@ -148,9 +148,11 @@ ol {
 .special_offers_container {
         padding-top: 55px;
 }
-.special_offers_container h3{
+
+.special_offers_container h3 {
         padding-bottom: 50px;
 }
+
 .offer_items {
         display: flex;
         justify-content: center;
@@ -193,17 +195,18 @@ ol {
         font-weight: 400;
 }
 
-.btn{
+.btn {
         padding: 12px;
         border-radius: 8px;
         background: #fff;
         border: 1px solid #2b3330;
         cursor: pointer;
 }
+
 .btn a {
         color: #2b3330;
         font-size: 16px;
-        font-weight: 700;      
+        font-weight: 700;
 }
 
 .card_price span {
@@ -213,8 +216,6 @@ ol {
         margin-left: 5px;
 }
 
-
-
 .view_all_button {
         padding: 20px 45px;
         border-radius: 8px;
@@ -223,7 +224,6 @@ ol {
         cursor: pointer;
         display: block;
         margin: 0 auto;
-
 }
 
 .view_all_button a {
@@ -233,11 +233,43 @@ ol {
 }
 
 
+/* ==============================
+        Special Offers part end
+    ============================= */
+
+
+
+/* ===================================
+                Support part start
+        ================================== */
+.support_container {
+        margin: 130px auto;
+        border-radius: 8px;
+        background: rgba(39, 39, 39, 0.05);
+        width: 80%;
+        
+}
+
+.support_container .support_items {
+        padding: 85px 50px;
+        display: flex;
+        justify-content: space-evenly;
+}
+
+.support_container .support_items .item{
+        width: 372px;
+       text-align: center;
+}
+
+
+/* ===================================
+                Support part end
+        ================================== */
+
 
 /* ===================================
                 Banner part start
         ================================== */
-
 
 /* ===================================
                 Banner part end
