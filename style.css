@@ -9,6 +9,10 @@ body {
         font-family: 'Lato', sans-serif;
 }
 
+a{
+        text-decoration: none;
+}
+
 ul,
 ol {
         list-style: none;
@@ -34,14 +38,13 @@ ol {
         border-radius: 8px;
         background: #E55473;
         border: none;
+        cursor: pointer;
 }
 
 .common_button a {
         color: #FFF;
         font-size: 20px;
         font-weight: 700;
-        text-decoration: none;
-
 }
 
 /* =================================
@@ -64,7 +67,6 @@ ol {
         color: #272727;
         font-size: 80px;
         font-weight: 800;
-
 }
 
 .banner_text p {
@@ -87,14 +89,14 @@ ol {
         ================================== */
 
 .featured_flowers {
-        padding-top: 130px;
+       padding: 130px 0;
 }
 
 .featured_flowers .featured_text p {
         width: 594px;
         text-align: center;
         margin: 0 auto;
-        padding: 10px 0 45px;
+        padding: 10px 0 50px;
 }
 
 .featured_flowers .featured_items {
@@ -144,12 +146,6 @@ ol {
                 Banner part start
         ================================== */
 
-/* ===================================
-                Banner part end
-        ================================== */
-/* ===================================
-                Banner part start
-        ================================== */
 
 /* ===================================
                 Banner part end
