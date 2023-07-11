@@ -173,7 +173,11 @@ ol {
 
 .offer_items .card img {
         width: 100%;
-        border-radius: 10px;
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
 }
 
 .card_text {
@@ -326,6 +330,15 @@ ol {
         display: flex;
         justify-content: center;
         gap: 25px;
+
+}
+
+.instagram_container .instagram_items img {
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
 }
 
 /* ===================================
@@ -371,12 +384,46 @@ ol {
                 Subscribe part end
         ================================== */
 
-
-
 /* ===================================
-                Banner part start
-        ================================== */
+                Footer part start
+      ================================== */
 
+.footer_container {
+        margin-top: 130px;
+        background: #111010;
+        padding: 118px 0;
+}
+
+.footer_container h3 {
+        color: #E55473;
+        font-size: 48px;
+        font-weight: 800;
+        text-align: center;
+
+}
+
+.footer_container span {
+        color: #fff;
+}
+
+.footer_container p {
+        color: rgba(255, 255, 255, 0.90);
+        width: 625px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        padding-top: 15px;
+}
+
+.footer_container .copyright {
+        color: rgba(255, 255, 255, 0.40);
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+
+}
 /* ===================================
-                Banner part end
+                Footer part end
         ================================== */
